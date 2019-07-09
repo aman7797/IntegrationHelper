@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4eda4c-4f8c-49bc-ae57-4a89c968ffca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Customer/CreateCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Customer/CreateCustomer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Customer/GetCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Customer/GetCustomer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Customer/UpdateCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Customer/UpdateCustomer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Order/CreateOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Order/CreateOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Order/GetOrderStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Order/GetOrderStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Order/RefundOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Order/RefundOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Order/UpdateOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Order/UpdateOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Transactions/CardTransaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Transactions/CardTransaction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Transactions/NetbankingTxnCall.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Transactions/NetbankingTxnCall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/Transactions/TransactionListAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/Transactions/TransactionListAPI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP Integration/UPI/UPICollect.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/UPI/UPICollect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP Integration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP Integration/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP Integration/Customer/CreateCustomer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP Integration/Customer/UpdateCustomer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP Integration/Order/CreateOrder.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +80,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP Integration/UPI/UPICollect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP Integration/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="113" lean-forward="true" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -136,6 +130,7 @@
         <option value="$PROJECT_DIR$/PHP Integration/Transactions/NetbankingTxnCall.php" />
         <option value="$PROJECT_DIR$/PHP Integration/Transactions/TransactionListAPI.php" />
         <option value="$PROJECT_DIR$/PHP Integration/UPI/UPICollect.php" />
+        <option value="$PROJECT_DIR$/PHP Integration/README.md" />
       </list>
     </option>
   </component>
@@ -170,30 +165,6 @@
               <item name="IntegrationHelper" type="462c0819:PsiDirectoryNode" />
               <item name="PHP Integration" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IntegrationHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntegrationHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP Integration" type="462c0819:PsiDirectoryNode" />
-              <item name="Customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntegrationHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntegrationHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP Integration" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntegrationHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntegrationHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP Integration" type="462c0819:PsiDirectoryNode" />
-              <item name="Transactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntegrationHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntegrationHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP Integration" type="462c0819:PsiDirectoryNode" />
-              <item name="UPI" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -202,6 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562677619029</updated>
-      <workItem from="1562677624141" duration="1063000" />
+      <workItem from="1562677624141" duration="1196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1063000" />
+    <option name="totallyTimeSpent" value="1196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -338,6 +310,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP Integration/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="113" lean-forward="true" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
