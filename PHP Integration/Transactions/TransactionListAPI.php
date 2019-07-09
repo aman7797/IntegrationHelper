@@ -13,7 +13,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => "",
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
-    "Authorization: Basic NDQ0RTBGQjVERjk0NjMwOEIzRDY0ODgxRkRCQ0M3Og==",
+    "Authorization: Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg==",
     "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.juspay.in",

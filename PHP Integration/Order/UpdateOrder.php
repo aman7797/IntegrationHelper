@@ -13,7 +13,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"order_id\"\r\n\r\nord_be2b0bd2c6454635a1e2d4b25dc32be7\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"amount\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
-    "Authorization: Basic NDQ0RTBGQjVERjk0NjMwOEIzRDY0ODgxRkRCQ0M3Og==",
+    "Authorization: Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg==",
     "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.juspay.in",
