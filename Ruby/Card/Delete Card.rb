@@ -1,20 +1,19 @@
 require 'net/http'
 require 'uri'
 
-uri = URI.parse("https://api.juspay.in/orders/ORD_1560355955/refunds")
+uri = URI.parse("https://api.juspay.in/card/delete")
 request = Net::HTTP::Post.new(uri)
-request.content_type = "multipart/form-data; boundary=--------------------------822465155100153361264842"
+request.content_type = "application/x-www-form-urlencoded"
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
 request["Cache-Control"] = "no-cache"
 request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "958f6cfc-bb78-4302-ab8a-6eb016d4f2d3,b3b5fa58-c0b7-4136-b361-95468c6441d2"
+request["Postman-Token"] = "efff0c94-9026-4544-9b15-2377a8481ffa,89b7f9f8-d76d-4008-91e7-9efb46d9b4fa"
 request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "296"
+request["Content-Length"] = "47"
 request.set_form_data(
-  "amount" => "1.0",
-  "unique_request_id" => "asgdfhurttgs_234",
+  "card_token" => "f3708ac7-91f5-4f83-89ed-47657e5fe031",
 )
 
 req_options = {
@@ -28,3 +27,8 @@ end
 
 # response.code
 # response.body
+
+# {
+#     "card_token": "f3708ac7-91f5-4f83-89ed-47657e5fe031",
+#     "deleted": true
+# }
