@@ -25,7 +25,6 @@ req_options = {
 }
 
 response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
-#   http.request(request)
   response = http.request(request)
   puts response.read_body
 end
