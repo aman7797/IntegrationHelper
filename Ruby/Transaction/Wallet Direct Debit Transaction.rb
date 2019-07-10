@@ -1,16 +1,17 @@
 require 'net/http'
 require 'uri'
 
-uri = URI.parse("https://api.juspay.in/cards?customer_id=this_is_1")
-request = Net::HTTP::Get.new(uri)
-request.content_type = "application/x-www-form-urlencoded"
+uri = URI.parse("https://api.juspay.in/txns")
+request = Net::HTTP::Post.new(uri)
+request.content_type = "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW"
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
 request["Cache-Control"] = "no-cache"
 request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "95a1f1fe-d41b-45c6-8c75-a72cbc808b50,9b85038d-51bd-4db2-b80a-9faf4cbbb55b"
+request["Postman-Token"] = "ecc445fa-9eb1-4662-823e-3852b7edb5fe,36b31353-c220-45f3-a3af-592a2cffb99a"
 request["User-Agent"] = "PostmanRuntime/7.15.0"
+request["Content-Length"] = "926"
 
 req_options = {
   use_ssl: uri.scheme == "https",
@@ -23,11 +24,3 @@ end
 
 # response.code
 # response.body
-
-# {
-#     "customer_id": "this_is_1",
-#     "merchantId": "guest",
-#     "cards": 
-#     [
-#     ]
-#   }

@@ -26,7 +26,7 @@ end
 # {
 #     "customer_email": null,
 #     "customer_phone": null,
-#     "txn_id": "aman_prod-test_9069_789-13",
+#     "txn_id": "guest-test_9069_789-13",
 #     "payment_method_type": "NB",
 #     "currency": "INR",
 #     "udf2": "",
@@ -41,7 +41,7 @@ end
 #     "amount_refunded": 0,
 #     "udf4": "",
 #     "udf3": "",
-#     "merchant_id": "aman_prod",
+#     "merchant_id": "guest",
 #     "auth_type": "",
 #     "payment_links": {
 #       "iframe": "https://api.juspay.in/merchant/ipay/ord_791e5040dd524eeda0d375dde4fda74c",

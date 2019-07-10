@@ -29,7 +29,7 @@ end
 # response.body
 
 # {
-#   "merchant_id": "aman_prod",
+#   "merchant_id": "guest",
 #   "order_id": "ORD_1560355955",
 #   "id": "ord_3a35f9c6526a4a7b9cd2322a2dee7a58",
 #   "customer_id": null,

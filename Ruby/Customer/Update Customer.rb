@@ -4,7 +4,7 @@ require 'uri'
 uri = URI.parse("https://api.juspay.in/customers/cst_5iu9kci8tbxvne0s")
 request = Net::HTTP::Post.new(uri)
 request["Accept"] = "*/*"
-request["Authorization"] = "Basic NDQ0RTBGQjVERjk0NjMwOEIzRDY0ODgxRkRCQ0M3Og=="
+request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
 request["Cache-Control"] = "no-cache"
 request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
