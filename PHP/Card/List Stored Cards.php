@@ -34,3 +34,5 @@ if ($err) {
 } else {
     echo $response;
 }
+
+//{ "customer_id": "this_is_1", "merchantId": "aman_prod", "cards": [ ] }
