@@ -35,4 +35,4 @@ if ($err) {
     echo $response;
 }
 
-//{ "customer_id": "this_is_1", "merchantId": "aman_prod", "cards": [ ] }
+//{ "customer_id": "this_is_1", "merchantId": "guest", "cards": [ ] }
