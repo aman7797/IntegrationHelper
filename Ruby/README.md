@@ -19,7 +19,7 @@ Here you can use Base64 encryption for not to make it public I have a encrypted 
 For local testing 
 1. Open the Terminal.
 2. Go to the directory where the code is present.
-3. Run the code `ruby createorder.rb`
+3. Run the code `ruby Create Order.rb`
 
   > **Note :-** change the file name as per requirement.
 
