@@ -15,13 +15,9 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
     "Authorization: Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg==",
-    "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.juspay.in",
-    ": 9bb00144-88f7-4b39-975c-c6f321c19264,9a9f3e9a-39c7-4bd7-84a1-25dbbf8e99bb",
-    "User-Agent: PostmanRuntime/7.11.0",
-    "accept-encoding: gzip, deflate",
-    "cache-control: no-cache"
+    "accept-encoding: gzip, deflate"
   ),
 ));
 

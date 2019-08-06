@@ -15,14 +15,9 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
     "Authorization: Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg==",
-    "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.juspay.in",
-    ": f95de0f7-4867-4213-b20f-87fcc8a29948,d788a75d-1f4b-4c55-9b45-94c122f8c641",
-    "User-Agent: PostmanRuntime/7.11.0",
     "accept-encoding: gzip, deflate",
-    "cache-control: no-cache",
-    "content-length: 903",
     "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW"
   ),
 ));
