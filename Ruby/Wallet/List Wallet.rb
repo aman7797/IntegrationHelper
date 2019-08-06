@@ -5,10 +5,9 @@ uri = URI.parse("https://api.juspay.in/customers/{customer_id}/wallets")
 request = Net::HTTP::Get.new(uri)
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic RjY3M0RFRTM1QzAyNEFBNkI2NzFDNTEyREVGN0U3NUM6"
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
+
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "1680d936-7663-439d-8451-03965a2a1f78,aae5c677-8c4b-40c1-b156-bb3f88da4edd"
+request[""] = "1680d936-7663-439d-8451-03965a2a1f78,aae5c677-8c4b-40c1-b156-bb3f88da4edd"
 request["User-Agent"] = "PostmanRuntime/7.15.0"
 
 req_options = {

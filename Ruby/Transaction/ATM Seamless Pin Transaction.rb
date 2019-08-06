@@ -4,12 +4,8 @@ require 'uri'
 uri = URI.parse("https://api.juspay.in/txns")
 request = Net::HTTP::Post.new(uri)
 request["Accept"] = "*/*"
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "b91e053e-d28c-4abd-aad4-750a67ba56a8,7ec3f666-ca9b-4caf-b82a-1e9999e3c2ad"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "308"
+
 request.set_form_data(
   "auth_type" => "ATMPIN ",
   "card_exp_month" => "10 ",

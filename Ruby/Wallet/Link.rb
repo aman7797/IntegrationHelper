@@ -6,10 +6,9 @@ request = Net::HTTP::Post.new(uri)
 request.content_type = "application/x-www-form-urlencoded"
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
+
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "9b9fa052-8f97-420f-aa48-f6cd2492fcda,8c9c7c07-d7ab-455a-994a-127f6f7fafc8"
+request[""] = "9b9fa052-8f97-420f-aa48-f6cd2492fcda,8c9c7c07-d7ab-455a-994a-127f6f7fafc8"
 request["User-Agent"] = "PostmanRuntime/7.15.0"
 request["Content-Length"] = "21"
 request.set_form_data(

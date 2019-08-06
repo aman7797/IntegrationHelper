@@ -5,12 +5,8 @@ uri = URI.parse("https://api.juspay.in/card/tokenize")
 request = Net::HTTP::Post.new(uri)
 request.content_type = "application/x-www-form-urlencoded"
 request["Accept"] = "*/*"
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "63afc848-e5ce-493c-ae05-5754dea1cf4a,c9dab00e-bc78-41a3-9f0b-921e65ba1714"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "123"
+
 request.set_form_data(
   "card_exp_month" => "10",
   "card_exp_year" => "2020",

@@ -5,12 +5,8 @@ uri = URI.parse("https://api.juspay.in/customers/cst_5iu9kci8tbxvne0s")
 request = Net::HTTP::Post.new(uri)
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "fe52e4b7-d66b-4ced-a3ca-bf5056faf23f,d6fbc769-770a-4918-91c4-74a39906e833"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "24"
+
 request.set_form_data(
   "mobile_number" => "8220265687",
 )

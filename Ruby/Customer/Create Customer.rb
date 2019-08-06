@@ -5,12 +5,8 @@ uri = URI.parse("https://sandbox.juspay.in/customers")
 request = Net::HTTP::Post.new(uri)
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "sandbox.juspay.in"
-request["Postman-Token"] = "6d007565-3811-4f11-bdc6-6e1131c0997a,fc5f21ae-0f5e-4050-9839-ba2f9a2709c8"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "156"
+
 request.set_form_data(
   "email_address" => "aman.lalpuria@juspay.in",
   "first_name" => "Aman",

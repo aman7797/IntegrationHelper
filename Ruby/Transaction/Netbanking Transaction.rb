@@ -5,12 +5,8 @@ uri = URI.parse("https://api.juspay.in/txns")
 request = Net::HTTP::Post.new(uri)
 request.content_type = "application/x-www-form-urlencoded"
 request["Accept"] = "*/*"
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "e1d157d2-7fa7-4910-8e75-936bf9aaec14,a79f8fbf-3a8c-4aaa-a51c-4e04a81557a6"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "132"
+
 request.set_form_data(
   "format" => "json",
   "merchant_id" => "guest",

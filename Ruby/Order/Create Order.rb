@@ -6,12 +6,7 @@ request = Net::HTTP::Post.new(uri)
 request.content_type = "multipart/form-data; boundary=--------------------------030889148911401589245613"
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "4c1d2ba6-cbc3-4355-93b5-770973c3f81e,d5a8903d-f895-417f-b188-455266e3e5e7"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
-request["Content-Length"] = "908"
 request.set_form_data(
   "amount" => "1",
   "currency" => "INR",

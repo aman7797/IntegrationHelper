@@ -6,11 +6,7 @@ request = Net::HTTP::Get.new(uri)
 request.content_type = "application/x-www-form-urlencoded"
 request["Accept"] = "*/*"
 request["Authorization"] = "Basic MTExMTExMTExMTExMTExMTExMTExMTExMTExOg=="
-request["Cache-Control"] = "no-cache"
-request["Connection"] = "keep-alive"
 request["Host"] = "api.juspay.in"
-request["Postman-Token"] = "d81b3c1f-847a-421e-ae53-7526a7d76a92,5ec1896e-23a1-4261-b41f-d720abb7da62"
-request["User-Agent"] = "PostmanRuntime/7.15.0"
 
 req_options = {
   use_ssl: uri.scheme == "https",

@@ -20,7 +20,7 @@ curl_setopt_array($curl, array(
     "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.juspay.in",
-    "Postman-Token: 676f2a74-4124-40d9-af5a-0a34dbfc93c5,be23f726-ce12-43df-9f0c-3a60e282212b",
+    ": 676f2a74-4124-40d9-af5a-0a34dbfc93c5,be23f726-ce12-43df-9f0c-3a60e282212b",
     "User-Agent: PostmanRuntime/7.11.0",
     "accept-encoding: gzip, deflate",
     "cache-control: no-cache",
